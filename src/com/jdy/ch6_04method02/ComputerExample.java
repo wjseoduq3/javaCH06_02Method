@@ -10,7 +10,10 @@ public class ComputerExample {
 		int result1 = myComputer.sum1(values);
 		System.out.println(result1);
 		
-		int result2 = myComputer.mult1(values);
-		System.out.println(result2);		
+		int result2 = myComputer.sum2(values);
+		System.out.println(result2);
+		
+		int result3 = myComputer.mult1(values);
+		System.out.println(result3);		
 	}
 }
